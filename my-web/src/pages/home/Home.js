@@ -1,6 +1,8 @@
+
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './home.css';
+
 
 function Home() {
    return (
@@ -29,7 +31,7 @@ function Home() {
          </nav>
 
          {/* container */}
-         <div className="container">
+        <div className="container">
             {/* leftsidebar */}
             <div className="left-sidebar"> <div className="emp-links"> <a href="#">
                <img src="images/house.png" alt="live-news" /> Last News</a> <a href="#">
@@ -47,7 +49,127 @@ function Home() {
             </div>
             {/* main content */}
             <div className="min-content">
-            </div> {/* right sidebar */}
+               <div className="story">
+                  <div className="st">
+                  <img src="images/cloud-computing.png" alt="pro" />
+                  <p>post</p>
+                    
+                  </div>
+               </div>
+               
+               
+               <div className=" write-post">
+                  <div className="user-pro">
+                  <img src="images/IMG_6982.jpg" />
+                  <div>
+                     <p>dev</p>
+                     <small>Puplic</small>
+                  </div>
+                  </div>
+                  <div className="post-input">
+                     <textarea rows="3" placeholder='write something..., dev?'></textarea>
+                     <div className="add-post-links">
+                        <a href='#'><img src="images/video-camera (1).png"></img>Live</a>
+                        <a href='#'></a>
+                        <a href='#'></a>
+
+                     </div>
+
+                  </div>
+               </div>
+
+
+               <div className="posting">
+              
+                  <div className="user-pro">
+                  <img src="images/IMG_6982.jpg" />
+                  <div>
+                     <p>dev</p>
+                     <small>april 20 2024 , 13:11pm</small>
+                  </div>
+                  </div>
+                  <p> leren hier shrijf post<a href="https://www.youtube.com/watch?v=bJzb-RuUcMU" target='_blank'> our chang</a></p>
+                  <iframe width="100%" height="315" src="https://www.youtube.com/embed/bJzb-RuUcMU?si=TbidcaX3aMMzZYH1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                  <div className="com-share-like">
+                     <div className="icons">
+                     <div><img src='images/video-camera (1).png'></img>like</div>
+                     <div><img src='images/video-camera (1).png'></img>comment</div>
+                        <div><img src='images/video-camera (1).png'></img>share</div>
+                        
+                        
+
+                     </div>
+
+                  </div>
+               </div>
+           
+
+               <div className="posting">
+              
+              <div className="user-pro">
+              <img src="images/IMG_6982.jpg" />
+              <div>
+                 <p>dev</p>
+                 <small>april 20 2024 , 13:11pm</small>
+              </div>
+              </div>
+              <p> leren hier shrijf post<a href="https://www.youtube.com/watch?v=bJzb-RuUcMU" target='_blank'> our chang</a></p>
+              <img src='images/95-5-tips.jpg' width="100%"></img>
+                 <div className="icons">
+                 <div><img src='images/video-camera (1).png'></img>like</div>
+                 <div><img src='images/video-camera (1).png'></img>comment</div>
+                    <div><img src='images/video-camera (1).png'></img>share</div>
+                    
+                    
+
+                 </div>
+
+              </div>
+         
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            </div>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+             {/* right sidebar */}
             <div className="right-sidebar">
                <div className="sidebar-title"> <h4> Events</h4> <a href="#"> See More</a>
                </div>
@@ -65,7 +187,8 @@ function Home() {
                <img src="images/Hostinger.jpg" className="sidebar-ads" alt="advertisement" />
             </div>
          </div>
-        
+         
+         
       </div>
    );
 }

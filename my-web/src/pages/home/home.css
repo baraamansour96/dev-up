@@ -210,4 +210,106 @@
     border-radius: 10px;
     margin-bottom: 20px;
   }
+  .story{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+  }
+
+  .st{
+    flex-basis: 18%;
+    padding-top: 32%;
+    position: relative;
+    background-position: center;
+  }
+  .write-post{
+    width: 500px;
+    background: rgb(201, 239, 201);
+    border-radius: 6px;
+    padding: 20px;
+    color: gray;
+  }
+  .user-pro{
+    display: flex;
+    align-items: center;
+    
+  }
+  .user-pro img{
+    width: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  .user-pro p{
+    margin-bottom: -5px;
+    font-weight: 500;
+    color: #000;
+  }
+  .user-pro small{
+    font-size: 12px;
+  }
+  .post-input{
+    padding-left: 55px;
+    padding-top: 10px;
+  }
+  .post-input textarea{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    resize: none;
+
+
+  }
+  .add-post-links{
+    display: flex;
+    margin: 10px;
+
+  }
+  .add-post-links a{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    color:#575757;
+    margin-left: 30px;
+    font-size: 13px;
+  }
+  .add-post-links a img{
+    width: 20px;
+    margin-right: 10px;
+
+  }
+  .posting{
+    width: 500px;
+    background:white;
+    border-radius: 6px;
+    padding: 20px;
+    color: #262626;
+    margin: 20px 0;
+  }
+  .posting p{
+    margin-top: 10px;
+    color: #000;
+    margin-bottom: 10px;
+
+
+  }
+  .com-share-like{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .com-share-like .icons div img{
+    width: 18px;
+    margin-right: 10px;
+
+  }
+  .com-share-like .icons div {
+    display: inline-flex;
+    align-items: center;
+    margin-left: 65px;
+    margin-top: 20px;
+    font-size: 16px;
+    
+  }
   
